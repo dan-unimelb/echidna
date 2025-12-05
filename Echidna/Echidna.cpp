@@ -5,10 +5,19 @@
 
 int main()
 {
-    std::cout << "Hello World of Beautiful Echidnas!\n";
-    std::cout << "Now.\n"; 
-    std::cout << "Dance!\n"; 
-    std::cout << "Please?\n";
+    using std::cout;
+    using std::cin;
+
+    cout << "Hello World of Beautiful Echidnas!\n"
+         << "Now.\n"
+         << "Dance!\n" 
+         << "Please?\n"
+         << "Okay, right. How many echidnas?\n";
+
+    auto nof_echidnas = 0;
+    cin >> nof_echidnas;
+
+    cout << nof_echidnas << " lovely echidnas dance like mad! Like mad!!\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
