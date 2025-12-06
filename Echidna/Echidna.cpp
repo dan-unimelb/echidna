@@ -23,6 +23,8 @@ int main()
     cin >> colour;
 
     cout << nof_echidnas << " lovely " << colour << " echidnas dance like mad! Like maad!!\n";
+
+    cout << "We ere done here. Echdnas need to rest.";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
