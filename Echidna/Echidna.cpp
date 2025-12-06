@@ -17,7 +17,14 @@ int main()
     auto nof_echidnas = 0;
     cin >> nof_echidnas;
 
-    cout << nof_echidnas << " lovely echidnas dance like mad! Like mad!!\n";
+    cout << "What colour are the echidnas?\n";
+
+    auto colour = std::string{};
+    cin >> colour;
+
+    cout << nof_echidnas << " lovely " << colour << " echidnas dance like mad! Like maad!!\n";
+
+    cout << "We ere done here. Echdnas need to rest.";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
